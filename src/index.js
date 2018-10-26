@@ -1,8 +1,13 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-const Main = () => (
-    <h1>It's working</h1>
-);
+import User from './user';
+import Repo from './repo';
+
+const Main = () => {
+    return (
+        <Repo />
+    )
+}
 
 render(<Main />, document.getElementById('app'));

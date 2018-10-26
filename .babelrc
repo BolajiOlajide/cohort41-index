@@ -1,7 +1,7 @@
 {
     "presets": [
-        ["latest-node", { "target": "current" }],
-        "react"
+        "@babel/preset-react",
+        ["latest-node", { "target": "current" }]
     ],
     "plugins": [
         ["transform-class-properties", { "spec": true }]
